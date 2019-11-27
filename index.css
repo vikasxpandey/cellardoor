@@ -27,6 +27,7 @@ section {
 
 
 #title {
+    -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
     position: absolute;
     top: 40vh;
     margin-left: 4rem;
