@@ -13,12 +13,12 @@ tl.to('.cover', 1.5, {
 })
 .fromTo('nav', 0.5, {
     opacity: 0,
-    x: '50',
+    y: '50',
     ease: Power0.easeOut
 },
 {
     opacity: 1,
-    x: 0
+    y: 0
 }, '-=0.5');
 
 title.addEventListener('click', () => {
