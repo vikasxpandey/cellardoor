@@ -25,6 +25,10 @@ title.addEventListener('click', () => {
     tl.play();
 });
 
+if(document.body.scrollTop != 0){
+    tl.play();
+}
+
 // SCROLL
 
 const controller = new ScrollMagic.Controller();
