@@ -5,23 +5,30 @@
     font-family: montserrat;
 }
 
-#body {
+body {
     overflow: hidden;
+    overflow-x: hidden;
 }
 
 section {
     height: 100vh;
 }
 
-.head, .foot {
+#head, #foot {
     background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cover {
     height: 20vh;
     width: 100%;
     background: #eee;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 
