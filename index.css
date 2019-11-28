@@ -24,6 +24,10 @@ section {
     justify-content: center;
 }
 
+#notmain {
+    background: cornsilk;
+}
+
 .cover {
     height: 20vh;
     width: 100%;
