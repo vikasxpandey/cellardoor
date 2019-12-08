@@ -24,12 +24,22 @@ section {
     justify-content: center;
 }
 
+#imgSeq {
+    float: right;
+    margin: 80px 200px 80px 0px;
+    
+}
+
+#seq {
+    max-height: 70vh;
+}
+
 #notmain {
     background: cornsilk;
 }
 
 .cover {
-    height: 20vh;
+    height: 100vh;
     width: 100%;
     background: #eee;
     opacity: 0.3;
