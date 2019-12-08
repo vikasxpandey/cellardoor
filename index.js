@@ -58,7 +58,8 @@ let images = [];
 
 for(let i=001; i<=318; i++) {
 
-    images.push("https://raw.githubusercontent.com/vikasxpandey/cellardoor/master/img/door00"+prependZero(i)+".jpg");
+    images.push("./img/door00"+prependZero(i)+".jpg");
+
 }
 console.log(images);
 
